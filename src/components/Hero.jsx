@@ -15,7 +15,7 @@ export default function Hero() {
 
           <p className="text-sm lg:text-base text-gray-600 leading-relaxed mb-8 max-w-xl">
             Senior Shopify Developer with 6+ years of experience building custom
-            Shopify themes and public/private apps. Specialized in performance
+            Shopify websites and public/private apps. Specialized in performance
             optimization, conversion-focused UI/UX, and scalable eCommerce
             solutions for global brands.
           </p>

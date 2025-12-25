@@ -3,7 +3,7 @@ export default function Skills() {
     {
       title: "Shopify & eCommerce",
       skills: [
-        "Shopify Theme Development",
+        "Shopify Theme Customization",
         "Liquid",
         "Public and Private Shopify Apps",
         "App Integration",

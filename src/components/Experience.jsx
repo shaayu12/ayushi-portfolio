@@ -18,7 +18,7 @@ export default function Experience() {
 
           <ul className="list-disc list-inside space-y-2 text-gray-600 text-sm leading-relaxed">
             <li>
-              Developed and maintained multiple Shopify eCommerce websites for international clients.
+              Developed and maintained multiple Shopify eCommerce websites for clients.
             </li>
             <li>
               Built custom Shopify themes and modular sections using Liquid, HTML, CSS, JavaScript, and jQuery.

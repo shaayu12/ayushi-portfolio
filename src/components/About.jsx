@@ -18,7 +18,7 @@ export default function About() {
       </p>
 
       <p className="text-gray-700 leading-relaxed mb-4">
-      My expertise includes custom theme development using Liquid, HTML, CSS, JavaScript,
+      My expertise includes custom shopify website development using Liquid, HTML, CSS, JavaScript,
       and jQuery, along with developing both public and private Shopify apps to extend
       store functionality.
       </p>

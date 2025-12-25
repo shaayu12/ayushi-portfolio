@@ -25,15 +25,10 @@ export default function Layout({ children }) {
 
 // https://usedtoyotalift.com/pages/help-me-choose
 
-// https://consumer.bluestarindia.com/ (compare - category wise)
-// https://nxtrndusa.com/
-
-// BYOB
-// https://nxtrndusa.com/collections/byob-collection
 
 // custom product page
 // https://www.lockenbox.com/en/products/abo-box-fur-lockige-haare
 
-// custom cart drawers - erenjoy, daysahead, staze, ayuga,
+// custom cart drawers - erenjoy, daysahead, ayuga,
 
 // custom password page - daysahead
