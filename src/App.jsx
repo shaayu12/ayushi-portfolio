@@ -5,6 +5,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -24,6 +25,7 @@ export default function App() {
           {active === "skills" && <Skills />}
           {active === "projects" && <Projects />}
           {active === "experience" && <Experience />}
+          {active === "education" && <Education />}
           {active === "contact" && <Contact />}
         </main>
 

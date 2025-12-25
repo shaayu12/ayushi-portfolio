@@ -7,8 +7,9 @@ export default function Sidebar({ active, setActive }) {
     { id: "home", label: "Home" },
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
-    { id: "projects", label: "Projects" },
+    { id: "projects", label: "Work" },
     { id: "experience", label: "Experience" },
+    { id: "education", label: "Education" },
     { id: "contact", label: "Contact" },
   ];
 
