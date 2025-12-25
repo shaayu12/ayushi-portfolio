@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <section
-      className="relative max-w-4xl rounded-xl overflow-hidden"
+      className="relative max-w-full lg:max-w-4xl rounded-none lg:rounded-xl overflow-hidden"
       style={{
         backgroundImage: "url('/contact-phone-notepad.jpg')",
         backgroundSize: "cover",

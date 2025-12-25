@@ -63,11 +63,11 @@ export default function Skills() {
               {group.title}
             </h3>
 
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-2 lg:gap-3">
               {group.skills.map((skill) => (
                 <span
                   key={skill}
-                  className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 px-4 py-2 rounded-lg text-sm text-gray-700 dark:text-gray-300"
+                  className="text-xs lg:text-sm px-3 py-1 rounded-md bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 px-4 py-2 rounded-lg text-sm text-gray-700 dark:text-gray-300"
                 >
                   {skill}
                 </span>

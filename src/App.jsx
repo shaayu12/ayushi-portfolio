@@ -18,7 +18,7 @@ export default function App() {
       {/* Right panel */}
       <div className="flex-1 flex flex-col overflow-hidden">
         {/* Scrollable content */}
-        <main className="flex-1 overflow-y-auto px-10 py-8">
+        <main className="flex-1 overflow-y-auto px-4 lg:px-10 py-6 lg:py-8 mt-14 lg:mt-0">
           {active === "home" && <Hero />}
           {active === "about" && <About />}
           {active === "skills" && <Skills />}
