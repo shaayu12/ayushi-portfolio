@@ -1,15 +1,15 @@
-/** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,jsx}"
-  ],
+  darkMode: "class",
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        mono: ["JetBrains Mono", "monospace"],
+      },
       colors: {
-        primary: "#7C3AED"
-      }
-    }
+        primary: "#7C3AED",
+      },
+    },
   },
-  plugins: []
-}
+  plugins: [],
+};
