@@ -1,66 +1,48 @@
-import { motion } from "framer-motion";
-import { fadeUp } from "../utils/motion";
-
 export default function Hero() {
   return (
-    <section className="mb-24">
-      <motion.h1
-        variants={fadeUp}
-        initial="hidden"
-        animate="visible"
-        className="text-4xl font-bold mb-2 dark:text-white"
-      >
+    <section className="max-w-3xl">
+      {/* Name */}
+      <h1 className="text-4xl font-semibold tracking-tight mb-2">
         Ayushi Sharma
-      </motion.h1>
+      </h1>
 
-      <motion.h2
-        variants={fadeUp}
-        initial="hidden"
-        animate="visible"
-        transition={{ delay: 0.1 }}
-        className="text-xl text-primary mb-4"
-      >
+      {/* Role */}
+      <h2 className="text-lg mb-6 text-[rgb(var(--primary))]">
         Senior Shopify Developer
-      </motion.h2>
+      </h2>
 
-      <motion.p
-        variants={fadeUp}
-        initial="hidden"
-        animate="visible"
-        transition={{ delay: 0.2 }}
-        className="text-gray-600 dark:text-gray-300 max-w-xl"
-      >
-        I build high-converting, scalable Shopify stores with clean UI,
-        optimized performance, and conversion-focused UX.
-      </motion.p>
+      {/* Intro */}
+      <p className="text-gray-600 leading-relaxed mb-8">
+        Senior Shopify Developer with 6+ years of experience building custom
+        Shopify themes and public/private apps. Specialized in performance
+        optimization, conversion-focused UI/UX, and scalable eCommerce solutions
+        for global brands.
+      </p>
 
-      <motion.div
-        variants={fadeUp}
-        initial="hidden"
-        animate="visible"
-        transition={{ delay: 0.3 }}
-        className="flex gap-4"
-      >
+      {/* Actions */}
+      <div className="flex gap-4 flex-wrap">
         <a
-          href="#projects"
-          className="bg-primary text-white px-6 py-3 rounded-lg hover:opacity-90 transition"
+          href="/Ayushi_Sharma_Resume.pdf"
+          download
+          className="px-5 py-2.5 rounded-md text-sm font-medium
+            bg-[rgb(var(--primary))] text-white
+            hover:opacity-90 transition"
         >
-          View My Work
+          Download Resume
         </a>
+
         <a
-          href="#contact"
-          className="border border-primary text-primary px-6 py-3 rounded-lg hover:bg-primary hover:text-white transition"
+          href="mailto:sharmaayushi664@gmail.com"
+          className="px-5 py-2.5 rounded-md text-sm font-medium
+            border border-gray-300 dark:border-gray-700
+            text-gray-700 dark:text-gray-300
+            hover:border-[rgb(var(--primary))]
+            hover:text-[rgb(var(--primary))]
+            transition"
         >
-          Contact Me
-           </a>
-           <a
-    href="/Ayushi_Sharma_Resume.pdf"
-    download
-    className="border border-primary text-primary px-6 py-3 rounded-lg hover:bg-primary hover:text-white transition"
-  >
-    Download Resume
-  </a>   
-      </motion.div>
+          Contact
+        </a>
+      </div>
     </section>
   );
 }

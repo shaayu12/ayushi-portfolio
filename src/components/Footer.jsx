@@ -12,21 +12,14 @@ export default function Footer() {
     >
       <div className="flex justify-center gap-6 mb-4">
         <a
-          href="https://www.linkedin.com/"
+          href="linkedin.com/in/ayushi-sharma-1b692914b"
           target="_blank"
           className="hover:text-primary transition"
         >
           LinkedIn
         </a>
         <a
-          href="https://github.com/ayushisharma"
-          target="_blank"
-          className="hover:text-primary transition"
-        >
-          GitHub
-        </a>
-        <a
-          href="mailto:ayushi.sharma.dev@gmail.com"
+          href="mailto:sharmaayushi664@gmail.com"
           className="hover:text-primary transition"
         >
           Email

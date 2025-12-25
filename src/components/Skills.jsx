@@ -5,11 +5,9 @@ export default function Skills() {
       skills: [
         "Shopify Theme Development",
         "Liquid",
-        "Custom Shopify Apps",
-        "Storefront API",
-        "Webhooks",
-        "Checkout & CRO Optimization",
-        "Performance Optimization",
+        "Public and Private Shopify Apps",
+        "App Integration",
+        "Shopify APIs"
       ],
     },
     {
@@ -19,17 +17,37 @@ export default function Skills() {
         "CSS3",
         "JavaScript (ES6+)",
         "React",
-        "Tailwind CSS",
-        "Responsive Design",
+        "jQuery",
       ],
     },
     {
-      title: "Tools & Workflow",
+      title: "E-Commerce",
       skills: [
-        "Git & GitHub",
-        "REST APIs",
+        "Performance Optimization",
+        "Conversion Optimization",
+        "UX Improvements"
+      ],
+    },
+    {
+      title: "Tools & Practices",
+      skills: [
+         "Git & GitHub",
+         "Monday Board",
+         "Trello",
+         "Jira",
+         "Slack",
+        "Debugging",
         "Cross-Browser Testing",
+        "Responsive Design",
         "SEO-Friendly Development",
+      ],
+    },
+    {
+      title: "Soft Skills",
+      skills: [
+        "Team Collaboration",
+        "Client Communication",
+        "Problem Solving"
       ],
     },
   ];
