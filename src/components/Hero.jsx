@@ -10,20 +10,17 @@ export default function Hero() {
           </h1>
 
           <h2 className="text-sm lg:text-lg mb-6 text-[rgb(var(--primary))]">
-            Senior Shopify Developer
+            Product Manager (Shopify Products & Solutions)
           </h2>
 
           <p className="text-sm lg:text-base text-gray-600 leading-relaxed mb-8 max-w-xl">
-            Senior Shopify Developer with 6+ years of experience building custom
-            Shopify websites and public/private apps. Specialized in performance
-            optimization, conversion-focused UI/UX, and scalable eCommerce
-            solutions for global brands.
+            Shopify expert with over 6 years of hands-on experience building, scaling, and managing high-performance e-commerce solutions. I’ve grown from developing custom themes and apps to leading Shopify products end-to-end, collaborating closely with design, QA, and business teams. Known for translating business requirements into clean, scalable Shopify solutions, improving UX, performance, and conversions for high-traffic brands. I enjoy owning problems, mentoring teams, and delivering products that genuinely work for both users and businesses.
           </p>
 
           {/* ACTION BUTTONS */}
           <div className="flex gap-4 flex-wrap">
             <a
-              href="/Ayushi_Sharma_Resume.pdf"
+              href="/Ayushi_Sharma_Resume_2026.pdf"
               download
               className="px-5 py-2.5 rounded-md text-sm font-medium
                 bg-[rgb(var(--primary))] text-white

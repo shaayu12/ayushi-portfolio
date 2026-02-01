@@ -8,39 +8,89 @@ export default function Experience() {
         {/* MeroxIO */}
         <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 bg-white dark:bg-gray-900 p-5 lg:p-6">
           <h3 className="text-lg font-medium">
-            Senior Shopify Developer
+            Product Manager (Shopify Products & Solutions)
           </h3>
 
           <p className="text-sm text-gray-500 mb-3">
             MeroxIO IT Solutions Pvt Ltd · Noida, India <br />
-            <span className="italic">Sep 2020 – Present</span>
+            <span className="italic">Nov 2023 – Present</span>
+          </p>
+
+          <ul className="list-disc list-inside space-y-2 text-gray-600 text-sm leading-relaxed">
+            <li>Lead end-to-end product strategy and delivery for multiple Shopify products, apps, and high-traffic stores.</li>
+            <li>Manage cross-functional teams (dev, design, QA) and ensure smooth execution across all project phases.</li>
+            <li>Drive feature planning, prioritization, UX improvements, performance optimization, and client communication.</li>
+            <li>Oversee major accounts including <b>MSI, Dr. Sheths, Biotique, Sanfe, Liftow, Payal Khandwala, Rare Rabbit, Moha, and Originals Furniture,</b> ensuring alignment with business goals and timelines.</li>
+          </ul>
+        </div>
+
+        
+        <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 bg-white dark:bg-gray-900 p-5 lg:p-6">
+          <h3 className="text-lg font-medium">
+            SDE II — Shopify Developer (Team Lead)
+          </h3>
+
+          <p className="text-sm text-gray-500 mb-3">
+            MeroxIO IT Solutions Pvt Ltd · Noida, India <br />
+            <span className="italic">Nov 2021 – Nov 2023</span>
           </p>
 
           <ul className="list-disc list-inside space-y-2 text-gray-600 text-sm leading-relaxed">
             <li>
-              Developed and maintained multiple Shopify eCommerce websites for clients.
+              Led a team of Shopify developers, owning architecture decisions, sprint planning, and code quality.
             </li>
+
             <li>
-              Built custom Shopify themes and modular sections using Liquid, HTML, CSS, JavaScript, and jQuery.
+              Delivered complex themes, custom features, and Shopify apps using Liquid, JS, and Shopify APIs.
             </li>
+
             <li>
-              Developed public and private Shopify apps to extend store functionality.
+              Implemented integrations and optimization strategies that improved site speed, UX, and conversion rates.
             </li>
+
             <li>
-              Implemented advanced features using Shopify APIs and third-party integrations.
+              Mentored junior developers and coordinated directly with designers and PMs for smooth project delivery.
             </li>
+
             <li>
-              Optimized storefront performance, UX, and conversion flows.
+              Developed multiple public and private Shopify apps, enhancing store functionality and user experience.
+              <ul className="list-circle list-inside ml-4 mt-2 space-y-1">
+                <li>
+                  <strong>- Video Reels App:</strong> Built a Shopify theme extension for dynamic video content, boosting customer engagement.
+                </li>
+                <li>
+                  <strong>- Shopify Product Comparison App:</strong> Created a product comparison tool to improve shopping experience and retention.
+                </li>
+                <li>
+                  <strong>- Lookbook App:</strong> Developed a visual gallery for curated product collections, integrated with Shopify backend.
+                </li>
+                <li>
+                  <strong>- Wishlist App:</strong> Enabled customers to save products for future purchase, increasing conversions.
+                </li>
+                <li>
+                  <strong>- Private Shopify App (Product Management Clone):</strong> Built a private app replicating core product management functions (add/edit/delete/import/export), streamlining inventory workflows.
+                </li>
+              </ul>
             </li>
-            <li>
-              Collaborated with designers, project managers, and clients to deliver projects on time.
-            </li>
-            <li>
-              Provided ongoing maintenance, bug fixes, and enhancements for live Shopify stores.
-            </li>
-            <li>
-              Conducted system testing to ensure stability and reliability.
-            </li>
+          </ul>
+        </div>
+
+        
+        <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 bg-white dark:bg-gray-900 p-5 lg:p-6">
+          <h3 className="text-lg font-medium">
+            SDE I — Shopify Developer
+          </h3>
+
+          <p className="text-sm text-gray-500 mb-3">
+            MeroxIO IT Solutions Pvt Ltd · Noida, India <br />
+            <span className="italic">Sep 2020 – Nov 2021</span>
+          </p>
+
+          <ul className="list-disc list-inside space-y-2 text-gray-600 text-sm leading-relaxed">
+            <li>Lead end-to-end product strategy and delivery for multiple Shopify products, apps, and high-traffic stores.</li>
+            <li>Manage cross-functional teams (dev, design, QA) and ensure smooth execution across all project phases.</li>
+            <li>Drive feature planning, prioritization, UX improvements, performance optimization, and client communication.</li>
+            <li>Oversee major accounts including <b>MSI, Dr. Sheths, Biotique, Sanfe, Liftow, Payal Khandwala, Rare Rabbit, Moha, and Originals Furniture,</b> ensuring alignment with business goals and timelines.</li>
           </ul>
         </div>
 

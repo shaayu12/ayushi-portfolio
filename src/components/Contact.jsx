@@ -15,12 +15,12 @@ export default function Contact() {
       <div className="relative p-10 text-white">
         <h2 className="text-3xl font-semibold mb-4">Contact</h2>
 
-        <p className="leading-relaxed mb-8 max-w-xl text-gray-200">
+        {/* <p className="leading-relaxed mb-8 max-w-xl text-gray-200">
             I’m open to full-time opportunities involving Shopify development,
             custom theme development, and Shopify app development. I enjoy working
             closely with product, design, and engineering teams to build scalable,
             high-quality eCommerce solutions.
-         </p>
+         </p> */}
 
         {/* Contact details */}
         <div className="space-y-4 text-sm mb-10">
