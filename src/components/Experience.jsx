@@ -6,7 +6,7 @@ export default function Experience() {
       <div className="space-y-10 max-w-4xl">
 
         {/* MeroxIO */}
-        <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 bg-white dark:bg-gray-900 p-5 lg:p-6">
+        {/* <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 bg-white dark:bg-gray-900 p-5 lg:p-6">
           <h3 className="text-lg font-medium">
             Product Manager (Shopify Products & Solutions)
           </h3>
@@ -22,21 +22,25 @@ export default function Experience() {
             <li>Drive feature planning, prioritization, UX improvements, performance optimization, and client communication.</li>
             <li>Oversee major accounts including <b>MSI, Dr. Sheths, Biotique, Sanfe, Liftow, Payal Khandwala, Rare Rabbit, Moha, and Originals Furniture,</b> ensuring alignment with business goals and timelines.</li>
           </ul>
-        </div>
+        </div> */}
 
         
         <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 bg-white dark:bg-gray-900 p-5 lg:p-6">
           <h3 className="text-lg font-medium">
-            SDE II — Shopify Developer (Team Lead)
+            Product Manager + Senior Shopify Developer (Team Lead)
           </h3>
 
           <p className="text-sm text-gray-500 mb-3">
             MeroxIO IT Solutions Pvt Ltd · Noida, India <br />
-            <span className="italic">Nov 2021 – Nov 2023</span>
+            <span className="italic">Nov 2021 – Present</span>
           </p>
 
           <ul className="list-disc list-inside space-y-2 text-gray-600 text-sm leading-relaxed">
-            <li>
+            <li>Lead end-to-end product strategy and delivery for multiple Shopify products, apps, and high-traffic stores.</li>
+            <li>Manage cross-functional teams (dev, design, QA) and ensure smooth execution across all project phases.</li>
+            <li>Drive feature planning, prioritization, UX improvements, performance optimization, and client communication.</li>
+            <li>Oversee major accounts including <b>MSI, Dr. Sheths, Biotique, Sanfe, Liftow, Payal Khandwala, Rare Rabbit, Moha, and Originals Furniture,</b> ensuring alignment with business goals and timelines.</li>
+          <li>
               Led a team of Shopify developers, owning architecture decisions, sprint planning, and code quality.
             </li>
 
@@ -87,10 +91,9 @@ export default function Experience() {
           </p>
 
           <ul className="list-disc list-inside space-y-2 text-gray-600 text-sm leading-relaxed">
-            <li>Lead end-to-end product strategy and delivery for multiple Shopify products, apps, and high-traffic stores.</li>
-            <li>Manage cross-functional teams (dev, design, QA) and ensure smooth execution across all project phases.</li>
-            <li>Drive feature planning, prioritization, UX improvements, performance optimization, and client communication.</li>
-            <li>Oversee major accounts including <b>MSI, Dr. Sheths, Biotique, Sanfe, Liftow, Payal Khandwala, Rare Rabbit, Moha, and Originals Furniture,</b> ensuring alignment with business goals and timelines.</li>
+            <li>Built custom Shopify themes, sections, and UI features under senior guidance.</li>
+            <li>Developed Liquid-based components, responsive layouts, and front-end enhancements.</li>
+            <li>Assisted in debugging, testing, and deployment for live Shopify stores.</li>
           </ul>
         </div>
 

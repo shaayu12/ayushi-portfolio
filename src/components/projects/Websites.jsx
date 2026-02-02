@@ -1,18 +1,40 @@
 export default function Websites() {
   const sites = [
     {
+      name: "MSI",
+      description: [
+        "Led ongoing maintenance and feature enhancements for MSI’s multi-store Shopify ecosystem (Germany, France, Spain, and B2B).",
+        "Built bespoke content-driven pages and custom sections to support marketing and growth initiatives",
+        "Gaming Monitor Buying Guide (France) – https://fr-store.msi.com/pages/comment-choisir-ecran-pc-gamer-guide-2025",
+        "Rewards Program Page (Germany) – https://fr-store.msi.com/pages/reward-program",
+        "Ensured localization, performance, and UX consistency across all regional stores.",
+        "https://eu-business-store.msi.com/"
+      ],
+      image: "/msi.png",
+      website: "https://eu-business-store.msi.com/",
+    },
+    {
       name: "Originals Furniture",
       description: [
         "Delivered end-to-end website development with a focus on scalable and maintainable architecture.",
         "Designed dynamic product page templates to support complex variant structures.",
         "Implemented variant-level metadata such as availability status and estimated delivery.",
         "Improved transparency and overall user experience on product pages.",
-        "https://www.originals.com.sg/products/linen-duvet-cover-sand",
-        "https://www.originals.com.sg/products/ponte-petite-l-shape-fabric-sofa-228-cm",
-        "https://www.originals.com.sg/products/bok-desk-oak"
+        "https://www.originals.com.sg/products/linen-duvet-cover-sand"
       ],
       image: "/originals-furniture.png",
       website: "https://www.originals.com.sg/",
+    },
+    {
+      name: "Smile Pro",
+      description: [
+        "Developed custom product pages and reusable Shopify sections to support merchandising and marketing goals.",
+        "Implemented location-based redirection to route users to the correct regional store, improving user experience and conversion accuracy.",
+        "Optimized website performance and load speed through theme enhancements, asset optimization, and best practices.",
+        "Built custom CMS pages and modular sections to enable scalable content updates across multiple stores."
+      ],
+      image: "/smilepro.png",
+      website: "https://www.smileproworldwide.com/",
     },
     {
       name: "Staze Beauty",
@@ -20,7 +42,7 @@ export default function Websites() {
         "Led a team of 4 developers to build the Staze Beauty website from scratch.",
         "Developed a custom product grid with advanced variant visibility and filtering.",
         "Built product pages with variant-specific image galleries, skin-tone–based variant suggestions, and dynamic A+ content.",
-        "Created a custom shade finder feature to improve product discovery.",
+        "Created a custom shade finder feature to improve product discovery. - https://www.stazebeauty.com/pages/shade-finder",
         "Implemented a custom cart drawer with related product recommendations and quick add-to-cart functionality.",
       ],
       image: "/staze-beauty.png",
@@ -31,8 +53,7 @@ export default function Websites() {
       description: [
         "Built custom collection pages with the ability to dynamically switch between grid and slider layouts, including configurable banner placements between products.",
         "Developed a 'Build a Set' feature allowing customers to select a top and bottom combination and add selected items to cart in a single action.",
-        "https://payalkhandwala.com/collections/shirts-tops",
-        "https://payalkhandwala.com/collections/home-1"
+        "https://payalkhandwala.com/collections/shirts-tops"
       ],
       image: "/payal-khandwala.png",
       website: "https://payalkhandwala.com/",
@@ -64,17 +85,35 @@ export default function Websites() {
    {
       name: "Moha",
       description: [
-         "Led a team of 3 developers to build the Moha website from scratch.",
-         "Implemented the Dosha Skin Assessment feature to provide personalized skincare recommendations.",
-         "Developed a custom e-gifts collection page for digital gifting.",
-         "Built the Moha TV page to showcase video-based content and brand storytelling.",
-         "https://www.moha.co.in/pages/dosha-skin-assessment?page=0",
-         "https://www.moha.co.in/collections/gift-cards",
-         "https://www.moha.co.in/pages/moha-tv"
+        "Led a team of 3 developers to build the Moha website from scratch.",
+        "Implemented the Dosha Skin Assessment feature to provide personalized skincare recommendations. - https://www.moha.co.in/pages/dosha-skin-assessment?page=0",
+        "Developed a custom e-gifts collection page for digital gifting. - https://www.moha.co.in/collections/gift-cards",
+        "Built the Moha TV page to showcase video-based content and brand storytelling. - https://www.moha.co.in/pages/moha-tv"
       ],
       image: "/moha.png",
       website: "https://www.moha.co.in/",
-   }
+    },
+    {
+      name: "Salkari",
+      description: [
+        "Developed a custom engraving and gift-wrapping feature directly on the product page to enhance personalization and gifting experience.",
+        "Built an upsell section with multi-product add-to-cart functionality, enabling users to add multiple items in a single click and increasing AOV.",
+        "Implemented a custom collection page navigator to improve product discoverability and user flow across large catalogs."
+      ],
+      image: "/salkari.png",
+      website: "https://salkari.fi/",
+    },
+    {
+      name: "The Venetian Resort Las Vegas",
+      description: [
+        "Built a custom “Build-a-Basket” feature enabling customers to curate personalized gift baskets, improving user engagement and average order value.",
+        "Developed a custom cart experience with additional checkout fields including guest name, recipient name, preferred delivery date, card message, and special delivery instructions to support hospitality-focused use cases.",
+        "Implemented infinite scroll on collection pages, allowing users to browse more products seamlessly without manual pagination, enhancing discovery and UX.",
+        "https://shop.venetianlasvegas.com/pages/build-a-basket"
+      ],
+      image: "/venetian.png",
+      website: "https://shop.venetianlasvegas.com/",
+    }
 
 
   ];

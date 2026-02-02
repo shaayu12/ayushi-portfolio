@@ -30,7 +30,7 @@ export default function About() {
       for international brands.
       </p> */}
 
-      <p className="text-gray-700 leading-relaxed mb-4">I’m a Product Manager with over 6 years of experience working on eCommerce products and digital platforms. I enjoy figuring out what problems are actually worth solving and working with teams to turn those ideas into features that users find genuinely useful.</p>
+      <p className="text-gray-700 leading-relaxed mb-4">I’m a Shopify expert with over 6 years of experience working on eCommerce products and digital platforms. I enjoy figuring out what problems are actually worth solving and working with teams to turn those ideas into features that users find genuinely useful.</p>
       <p className="text-gray-700 leading-relaxed mb-4">I work closely with engineering, design, and business teams to define requirements, prioritize work, and move ideas from concept to launch. I’m comfortable navigating ambiguity, asking the right questions, and making trade-offs that balance user experience, technical constraints, and business goals.</p>
       <p className="text-gray-700 leading-relaxed mb-4">Over the years, I’ve been involved in improving user journeys, performance, and conversion flows, often through small, thoughtful changes that add up to meaningful impact. I like owning things end to end — from early discovery and planning to shipping, learning from feedback, and iterating on what we’ve built.</p>
       <p className="text-gray-700 leading-relaxed mb-4">I’m currently looking for a full-time Product Manager role where I can work on meaningful products, collaborate with strong cross-functional teams, and continue growing as a product professional.</p>

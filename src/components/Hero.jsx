@@ -10,7 +10,7 @@ export default function Hero() {
           </h1>
 
           <h2 className="text-sm lg:text-lg mb-6 text-[rgb(var(--primary))]">
-            Product Manager (Shopify Products & Solutions)
+            Product Manager +  Senior Shopify Developer
           </h2>
 
           <p className="text-sm lg:text-base text-gray-600 leading-relaxed mb-8 max-w-xl">
@@ -46,7 +46,7 @@ export default function Hero() {
         {/* RIGHT IMAGE — VERTICAL */}
         <div className="flex-shrink-0">
           <img
-            src="/me.jpeg"
+            src="/mee.jpeg"
             alt="Ayushi Sharma"
             className="
               w-100 h-100
